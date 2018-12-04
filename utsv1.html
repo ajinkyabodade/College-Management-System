@@ -1,0 +1,81 @@
+
+<html>
+<head>
+<title>Unit Test Portal</title>
+		<link href="bootstrap.min.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-georgia.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+
+<body  style="background: url(images/main_bg.gif) repeat left top;">
+<div class="main" >
+ <div class="logo">     </div>
+ 
+ <h1><a href="index.html">Student &nbsp;<span>Portal</span></a></h1>
+          <div class="form-group" style="margin:30px;" align="center" >
+	<a href="studentportal.php" target=""><input type="submit" class="btn btn-primary" value="Home"></a>  &nbsp; &nbsp; <a href="studentprofile.html" target=""><input type="submit" class="btn btn-primary" value="View/Edit Profile"></a>   &nbsp; &nbsp;  <a href="tgedit.html" target=""><input type="submit" class="btn btn-primary" value="View/Edit T/G Form"></a>   &nbsp; &nbsp;  <a href="tgfill.html" target=""><input type="submit" class="btn btn-primary" value="Fill TG Form"></a>   &nbsp; &nbsp;   <a href="attendances1.html" target=""><input type="submit" class="btn btn-primary" value="View Attendance"></a>   &nbsp; &nbsp;  <a href="feedbackstd.html" target=""><input type="submit" class="btn btn-primary" value="Feedback Form"></a>   &nbsp; &nbsp;     <a href="utsv1.html" target=""><input type="submit" class="btn btn-primary" value="View UT Marks"></a>   &nbsp; &nbsp;   <a href="logouts.php" target=""><input type="submit" class="btn btn-primary" value="Logout"></a>  
+	</div>
+      </div>
+	  
+	
+      
+
+<div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"></div>
+      </div>
+<form action="utsv2.php" method="POST"  >
+<div class="container">
+	<div class="panel panel-primary" 
+style="margin:15px 112px 1px 240px;text-align:center;width:500px;border-radius:10px;">
+<div class="panel-heading">
+              <h1 class="panel-title" style="font-size:30px;">Student Registration</h1>
+            </div>
+<table align="center" style="color:#000000">
+
+	<div class="form-group" style="margin:30px;" >
+<tr><td>Branch:</td>   	<td><select name="branch" class="form-control" label =" Select Branch" id="eee" required></div>
+<option value="Computer Science">Computer Science</option>
+<option value="Civil Engineering">Civil Engineering</option>
+<option value="Electrical Engineering">Electrical Engineering</option>
+<option value="Electronics&Telecommunication">Electronics&Telecommunication </option>
+<option value="Mechanical Engineering">Mechanical Engineering</option>
+<option value="First Semester">First Year</option>
+</select><br></tr></td>
+
+<div class="form-group" style="margin:30px;" >
+<tr><td>Semester:</td> <td><select name="semester"  class="form-control" label ="Select Semester" required></div>
+<option value="First Semester">First Semester</option>
+<option value="Second Semester">Second Semester</option>
+<option value="Third Semester">Third Semester</option>
+<option value="Final Semester">Fourth Semester </option>
+<option value="Final Semester">Fifth Semester </option>
+<option value="Final Semester">Sixth Semester </option>
+<option value="Final Semester">Seventh Semester </option>
+<option value="Final Semester">Eighth Semester </option>
+</select><br> </tr></td>
+
+<div class="form-group" style="margin:30px;" >
+<tr><td>Unit Test No:</td>   	<td><select name="utno" class="form-control" label =" Select Branch" id="eee" required></div>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option></select></td></tr>
+<tr><td>.</td></tr>
+<div class="form-group" style="margin:30px;" >
+<td>Roll No:</td><td><input class="form-control" type="text" name="rollno"></td></tr></div>
+
+<tr><td>
+<div class="form-group" style="margin:30px;" >
+<input type="submit" class="btn btn-primary" value="Submit" ></td> <td style="padding-left:50px;" ><input class="btn btn-primary" type="reset" value="Reset"></td></tr>
+</div>
+</table>
+</form>
+</div>
+</div>
+</body>
+</html>

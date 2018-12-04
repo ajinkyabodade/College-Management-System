@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>Feedback Portal</title>
+<link href="bootstrap.min.css" rel="stylesheet">
+</head><body>
+
+	  <div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"></div>
+      </div>
+      
+<h3 align="center"><em><strong><span style="font-size: 36px"><span style="font-family: Georgia"> Feedback Portal <div class="form-group" style="margin:30px;" align="center" >
+	<a href="studentportal.php" target=""><input type="submit" class="btn btn-primary" value="Home"></a>  <a href="studentprofile.html" target=""><input type="submit" class="btn btn-primary" value="View/Edit Profile"></a>    <a href="tgedit.html" target=""><input type="submit" class="btn btn-primary" value="View/Edit T/G Form"></a>    <a href="tgfill.html" target=""><input type="submit" class="btn btn-primary" value="Fill TG Form"></a>     <a href="attendances1.html" target=""><input type="submit" class="btn btn-primary" value="View Attendance"></a>    <a href="feedbackstd.html" target=""><input type="submit" class="btn btn-primary" value="Feedback Form"></a>       <a href="utsv1.html" target=""><input type="submit" class="btn btn-primary" value="View UT Marks"></a>   <a href="logouts.php" target=""><input type="submit" class="btn btn-primary" value="Logout"></a>  
+	</div> </span></span></strong></em></h3>
+<div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"></div>
+      </div>
+      </div>
+	  
+
+<form action="feedbackstd2.php" method="POST"  >
+<div class="container">
+	<div class="panel panel-primary" 
+style="margin:25px 350px 120px 120px;text-align:center;width:900px;border-radius:10px;">
+<div class="panel-heading">
+              <h1 class="panel-title" style="font-size:30px;">Feedback Form</h1>
+            </div>
+
+		 
+<table align="center">
+	<div class="form-group" style="margin:30px;" >
+<tr><td>Branch</td>   	<td><select class="form-control" name="branch"  label =" Select Branch" id="eee" required></div>
+<option value="Computer Science">Computer Science</option>
+<option value="Civil Engineering">Civil Engineering</option>
+<option value="Electrical Engineering">Electrical Engineering</option>
+<option value="Electronics&Telecommunication">Electronics&Telecommunication </option>
+<option value="Mechanical Engineering">Mechanical Engineering</option>
+<option value="First Year">First Year</option>
+</select></td>
+<div class="form-group" style="margin:30px;" >
+<td style="padding-left:50px;"> Select Year </td> <td style="padding-left:50px;"><select name="year" class="form-control" label ="Select Year" required></div>
+<option value="First Year">First Year</option>
+<option value="Second Year">Second Year</option>
+<option value="Third Year">Third Year</option>
+<option value="Final Year">Final Year </option>
+</select><br> </tr></td>
+<div class="form-group" style="margin:30px;" >
+<tr><td>Teacher Name</td>	<td><input class="form-control" type="text" name="tname" placeholder="Ex-AOB" required></td>
+<tr><td> .</td></tr>
+<div class="form-group" style="margin:30px;" >
+<tr><td>Date:</td>	<td><input class="form-control" type="date" name="date" placeholder="Ex-AOB" required></td>
+<td style="padding-left:50px;">Subject</td>	<td style="padding-left:50px;"><input class="form-control" type="text" name="sub" placeholder="Ex-M3" required></td></tr>
+<tr><td> .</td></tr>
+
+
+<tr><td style="padding-left:50px;">Question 1: </td> <td style="padding-left:50px;"><select name="q1" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 2: </td> <td style="padding-left:50px;"><select name="q2" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 3: </td> <td style="padding-left:50px;"><select name="q3" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 4: </td> <td style="padding-left:50px;"><select name="q4" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 5: </td> <td style="padding-left:50px;"><select name="q5" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 6: </td> <td style="padding-left:50px;"><select name="q6" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 7: </td> <td style="padding-left:50px;"><select name="q7" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 8: </td> <td style="padding-left:50px;"><select name="q8" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 9: </td> <td style="padding-left:50px;"><select name="q9" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 10: </td> <td style="padding-left:50px;"><select name="q10" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 11: </td> <td style="padding-left:50px;"><select name="q11" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 12: </td> <td style="padding-left:50px;"><select name="q12" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 13: </td> <td style="padding-left:50px;"><select name="q13" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 14: </td> <td style="padding-left:50px;"><select name="q14" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+<td style="padding-left:50px;">
+Question 15: </td> <td style="padding-left:50px;"><select name="q15" class="form-control" label ="Select Year" required></div>
+<option value="Never">Never</option>
+<option value="Rarely">Rarely</option>
+<option value="Sometime">Sometime</option>
+<option value="Always">Always</option>
+</select><br> </tr></td>
+
+
+
+</table>
+
+
+
+<div class="form-group" style="margin:30px;" >	
+<input class="btn btn-primary" type="submit" value="Submit" >  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input class="btn btn-primary" type="reset" value="Reset"></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"><p style="font-size: 18px; font-family: comic sans ms,cursive; color:black; ">Created by Ajinkya Bodade</p></div>
+		</div>
+</body>
+</html>

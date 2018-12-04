@@ -1,0 +1,63 @@
+
+<?php
+ session_start();
+?>
+<html>
+<head>
+<title>Student Login</title>
+		<link href="bootstrap.min.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-georgia.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+
+<body  style="background: url(images/main_bg.gif) repeat left top;">
+<div class="main" >
+ <div class="logo">
+         <div class="form-group" style="margin:30px;" align="right" >
+	<a href="studentportal.php" target=""><input type="submit" class="btn btn-primary" value="Home"></a>  <a href="studentprofile.html" target=""><input type="submit" class="btn btn-primary" value="View/Edit Profile"></a>    <a href="tgedit.html" target=""><input type="submit" class="btn btn-primary" value="View/Edit T/G Form"></a>    <a href="tgfill.html" target=""><input type="submit" class="btn btn-primary" value="Fill TG Form"></a>     <a href="attendances1.html" target=""><input type="submit" class="btn btn-primary" value="View Attendance"></a>    <a href="feedbackstd.html" target=""><input type="submit" class="btn btn-primary" value="Feedback Form"></a>       <a href="utsv1.html" target=""><input type="submit" class="btn btn-primary" value="View UT Marks"></a>   <a href="logouts.php" target=""><input type="submit" class="btn btn-primary" value="Logout"></a>  
+	</div>
+      </div>
+	  
+	  <div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"></div>
+      </div>
+      
+	  
+	  
+<h1><a href="index.html">Student &nbsp;<span>Portal</span></a></h1>
+<div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"></div>
+      </div>
+      </div>
+	  
+
+<form action="studentprofile1.php" method="post">
+<div class="container">
+	<div class="panel panel-primary" style="margin:15px 350px 22px 280px;text-align:center;width:400px;border-radius:10px;">
+<div class="panel-heading">
+              <h1 class="panel-title" style="font-size:30px;">Relogin</h1>
+            </div>
+		<div class="form-group" style="margin:30px;" >
+<input class="form-control" name="emailid" required="" type="text" placeholder="Username" /></div>
+	<div class="form-group" style="margin:30px;" >
+<input class="form-control"  name="pass" required="" type="password"  placeholder="Password"/></div>
+<div class="form-group" style="margin:30px;" >	
+<input pbzloc="13"   class="btn btn-primary"   type="submit" value="Login" />
+</div>
+</form>
+</div>
+<h4 style="text-align:right;"><a href="index.html" >Created by Ajinkya Bodade</a></h4>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
+

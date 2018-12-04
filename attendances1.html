@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Attendance Portal</title>
+<link href="bootstrap.min.css" rel="stylesheet">
+</head><body>
+
+
+<div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"></div>
+      </div>
+      
+<h3 align="center"><em><strong><span style="font-size: 36px"><span style="font-family: Georgia">Attendance Portal <div class="form-group" style="margin:30px;" align="center" >
+	<a href="studentportal.php" target=""><input type="submit" class="btn btn-primary" value="Home"></a>  <a href="studentprofile.html" target=""><input type="submit" class="btn btn-primary" value="View/Edit Profile"></a>    <a href="tgedit.html" target=""><input type="submit" class="btn btn-primary" value="View/Edit T/G Form"></a>    <a href="tgfill.html" target=""><input type="submit" class="btn btn-primary" value="Fill TG Form"></a>     <a href="attendances1.html" target=""><input type="submit" class="btn btn-primary" value="View Attendance"></a>    <a href="feedbackstd.html" target=""><input type="submit" class="btn btn-primary" value="Feedback Form"></a>       <a href="utsv1.html" target=""><input type="submit" class="btn btn-primary" value="View UT Marks"></a>   <a href="logouts.php" target=""><input type="submit" class="btn btn-primary" value="Logout"></a>  
+	</div></span></span></strong></em></h3>
+<div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"></div>
+      </div>
+	   
+	  
+	  
+	  
+	  
+
+<form action="attendances2.php" method="POST"  >
+
+<div class="container">
+	<div class="panel panel-primary" style="margin:25px 350px 60px 350px;text-align:center;width:400px;border-radius:10px;">
+<div class="panel-heading">
+              <h1 class="panel-title" style="font-size:30px;">Attendance Portal</h1>
+            </div>
+<table align="center">
+<div class="form-group" style="margin:30px;" >
+
+<tr><td>Branch:</td>   	<td><select name="branch" class="form-control" label =" Select Branch" id="eee" required></div>
+<option value="Computer Science">Computer Science</option>
+<option value="Civil Engineering">Civil Engineering</option>
+<option value="Electrical Engineering">Electrical Engineering</option>
+<option value="Electronics&Telecommunication">Electronics&Telecommunication </option>
+<option value="Mechanical Engineering">Mechanical Engineering</option>
+<option value="First Year">First Year</option>
+</select><br></tr></td>
+<div class="form-group" style="margin:30px;" >
+<tr><td>Year:</td> <td><select name="year" class="form-control"  label ="Select Year" required></div>
+<option value="First Year">First Year</option>
+<option value="Second Year">Second Year</option>
+<option value="Third Year">Third Year</option>
+<option value="Final Year">Final Year </option>
+</select><br> </tr></td>
+<div class="form-group" style="margin:30px;" >
+<tr><td>Subject:</td>	<td><input type="text" class="form-control"  name="subject" maxlength="5" placeholder="subject" required><br></tr></td></div>
+<div class="form-group" style="margin:30px;" >
+<tr><td>Roll no. :</td>	<td><input type="text"  class="form-control" name="rollno" maxlength="10" required placeholder="Roll noo."><br></tr></td></div>
+</table>
+<font color="red" > Enter Subject Name As : Ex-For Engineering Drawing Enter(ED). And For Practical Enter(EDP)<br>
+</font>
+&nbsp	
+<input type="submit" class="btn btn-primary"  value="Submit" >  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input class="btn btn-primary"  type="reset" value="Reset">
+</div>
+</form>
+</div>
+</div></div>
+<div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 100%; height:100%;"><p style="font-size: 18px; font-family: comic sans ms,cursive; color:black; ">Created by Ajinkya Bodade</p></div>
+		</div>
+</body>
+</html>
