@@ -13,7 +13,10 @@
 $conn=new mysqli("localhost","root","","collegemanagement");
 $emailid = $_POST["emailid"];
 $pass = $_POST["pass"];
-$result = $conn->query("SELECT * FROM student where username= '$emailid' and password= '$pass'");
+$stmt = $conn->prepare("SELECT * FROM student where username= ? and password= ?");
+$stmt->bind_param("ss", $emailid, $pass);
+$stmt->execute();
+$result = $stmt->get_result();
 	if ($result->num_rows > 0) {
 	
 	
